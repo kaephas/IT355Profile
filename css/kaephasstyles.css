@@ -1,7 +1,6 @@
 body {
-    background-color: #33094A;
+    background-image: url("../images/codebkgd.jpg");
 }
-
 
 /* data table styles */
 th {
@@ -37,7 +36,7 @@ h1 {
 
 /* match nav color to scheme */
 #myNav {
-    background-color: #33094A !important;
+    background-color: rgba(51, 9, 74, 0.7) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -68,12 +67,12 @@ h1 {
 }
 
 .card-header {
-    background-color: #33094A;
+    background-color: rgba(51, 9, 74, 0.7);
     color: white;
 }
 
 .card {
-    background: #6D4285;
+    background: rgba(51, 9, 74, 0.7);
 }
 
 .card-body {
@@ -85,7 +84,8 @@ h1 {
 }
 
 .jumbotron {
-    background-color: #6D4285;
+    background: transparent;
+    padding: .5rem 1rem;
 }
 
 /* custom button color */
@@ -93,8 +93,8 @@ h1 {
     color: white;
     background-color: #6D4285 !important;
     border: 1px solid white;
-    height: 35px;
-    padding: 5px 7px;
+    height: 30px;
+    padding: 3px 7px !important;
     vertical-align: middle;
     max-width: 100px;
 }
@@ -102,18 +102,19 @@ h1 {
 /* linkedIn link button styles */
 .btn-linkedin {
     background: url("../images/linkedin.png") center !important;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     border: 1px solid white;
     padding: 5px;
 }
 
 .btn-git {
     background: url("../images/github.png") center !important;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     border: 1px solid white;
     padding: 5px;
+    margin-right: 5px;
 }
 
 #resume {
@@ -134,6 +135,26 @@ label {
 /* remove transparency from small header */
 h3 {
     color: rgba(255,255,255,1) !important;
+}
+
+#intro {
+    background-color: rgba(51, 9, 74, 0.7);
+    color: white;
+    margin-top: 1em;
+    box-shadow: 0 .25rem .5rem rgba(255, 255, 255, 0.25);
+}
+
+.whiteShadow {
+    box-shadow: 0 .25rem .5rem rgba(255, 255, 255, 0.25);
+}
+
+#intro p {
+    padding: 1em;
+}
+
+#RSBhook {
+    font-size: .75em;
+    color: black;
 }
 
 /* login box style and shape */
@@ -175,3 +196,4 @@ h3 {
     font-weight: normal;
     color: white !important;
 }
+

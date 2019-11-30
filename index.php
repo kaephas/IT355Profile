@@ -127,18 +127,18 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <!-- the actual page -->
 <!-- bio section -->
-<div>
-
-    <p>I’m Kaephas, and I believe that, anything humans can do, they can do even better with a program.
-        I’ve worked in numerous Agile teams to put my OOP and Full-Stack expertise into building quality
-        web-based and Java applications. I efficiently interpret client needs and convert them into
-        working product features. I’m seeking a place where I can be passionate about the work I’m doing
-        and put my programming and problem-solving skills to its best use.
-    </p>
-
+<div class="container">
+    <div id="intro">
+        <p>I’m Kaephas, and I believe that anything humans can do, they can do even better with a program.
+            I’ve worked in numerous Agile teams to put my OOP and Full-Stack expertise into building quality
+            web-based and Java applications. I efficiently interpret client needs and convert them into
+            working product features. I’m seeking a place where I can be passionate about the work I’m doing
+            and put my programming and problem-solving skills to its best use.
+        </p>
+    </div>
 </div>
 <div class="jumbotron kaephas" id="bio">
-    <div class="accordion" id="bioExpand">
+    <div class="accordion whiteShadow" id="bioExpand">
         <div class="card">
             <div class="card-header text-center" id="headingBio">
                 <h2 class="mb-0">
@@ -155,10 +155,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                         lists to graphs to binary search-trees, and we'll be spending more time in the future learning
                         about those and more even more in-depth.</p>
 
-                    <p>For our Full-STack Web Development classes, we've been working in Agile teams using the Scrum
-                        Methodology and I look forward to continue learning how to work efficiently while collaborating.
-                        Our coming quarters will involve working on new technologies and languages to further broaden
-                        our knowledge and capalities.
+                    <p>We've been working in Agile Scrum teams creating applications for real clients and I look forward
+                        to continuing to learn how to work efficiently while collaborating. Our coming quarters will
+                        involve working with new technologies and languages to further broaden our knowledge and
+                        capabilities as we develop new applications for members of the community.
                     </p>
 
                     <p>In my current job, I work with clients and other employees to solve numerous IT related problems
@@ -175,7 +175,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <!-- portfolio section -->
 <div class="jumbotron" id="portfolio">
-    <div class="accordion" id="portfolioExpand">
+    <div class="accordion whiteShadow" id="portfolioExpand">
         <div class="card">
             <div class="card-header text-center" id="headingPortfolio">
                 <h2 class="mb-0">
@@ -189,10 +189,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <div class="card-body">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#java" role="tab" aria-controls="java" aria-selected="true">Java</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#webdev" role="tab" aria-controls="webdev" aria-selected="true">Full Stack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#webdev" role="tab" aria-controls="webdev" aria-selected="false">Web Dev</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#java" role="tab" aria-controls="java" aria-selected="false">Java</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#certs" role="tab" aria-controls="certs" aria-selected="false">Certifications</a>
@@ -200,44 +200,85 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </ul>
                     <!-- Tab swapped content -->
                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="java" role="tabpanel" aria-labelledby="home-tab">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <p>The program at GRC has emphasizes Java and focuses heavily on making sure we understand
-                                        Data Structures. Some examples of programs I've created involve working with binary
-                                        operators, linked lists, and out latest project was a webcrawler, working with threads.
-                                        I've posted a couple screenshots of a couple of the projects to the right. I'd love to
-                                        show some of the code I'm particularly proud of, but I wouldn't want any future
-                                        students getting any ideass!</p>
-                                </div>
-                                <!-- Java example image -->
-                                <div class="col-md-8">
-                                    <img class="certs" src="images/webcrawl.png" alt="webcrawler">
-                                </div>
-                            </div>
-                        </div>
                         <div class="tab-pane fade" id="webdev" role="tabpanel" aria-labelledby="profile-tab">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <p>We're learning Full Stack Web Development and began with HTML and CSS, progressing
-                                    on to Javascript and JQuery, and recently have begun to learn PHP and how to connect
-                                    our website to SQL databases. This website is one such project, as it allows us to
-                                    view the database of people who have signed our guestbook. I've written this whole
-                                    site from scratch (Boostrap 4 counts right?) and set up the database myself (albeit
-                                    a simple one). We've had a couple other projects involving all the components as well
-                                    throughout the most recent quarter, and you can see some screen shots of the finished
-                                    products to the right (or below on Mobile--it's a responsive site!)</p>
+                                    <p>
+                                        We've learned Full Stack Web Development beginning with HTML and CSS, and
+                                        progressing to Javascript, JQuery, and PHP with SQL databases. Most recently I
+                                        began
+                                        working on an app that was a transition from a previous GRC capstone team:
+                                        the <strong>Boxers with Parkinson's</strong> app.
+                                    </p>
+                                    <p>
+                                        The app uses html, css, and js as the foundation, but I also had to begin to
+                                        learn node.js, express, and a NoSQL database MongoDB. It then uses Cordova to
+                                        convert the code into an Android app that the client uses on tablets. It's been
+                                        a challenge working with pre-existing code and learning how all the pieces
+                                        interact together but has also been really rewarding to make progress fixing
+                                        bugs and working with the client to interpret his needs into working features.
+                                    </p>
                                 </div>
                                 <!-- web dev example image -->
                                 <div class="col-md-8">
-                                    <img class="certs" src="images/icecream.png" alt="ice cream shoppe">
+                                    <div class="row">
+                                        <div class="col" id="RSBhook">
+                                            <p>
+                                                Rock Steady Boxing, a 501 (c)(3) nonprofit organization, gives people with
+                                                Parkinson’s disease hope by improving their quality of life through a
+                                                non-contact boxing-based fitness curriculum. At Rock Steady Boxing, 43,000
+                                                fighters are fighting back against Parkinson's! We inherited the Boxers with
+                                                Parkinson's app from a previous student team to implement the final features and
+                                                bug fixes to prepare it for version 1.0! The Boxers with Parkinson's app stores
+                                                all boxer data and assessment results digitally, replacing the need for
+                                                cumbersome, paper files by giving coaches the ability to easily sign up and
+                                                assess new boxers of all physical capabilities. For the first time ever, there's
+                                                measurable, tangible data about the impact of aerobic and neurobic exercise on
+                                                Parkinson's Symptoms!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="certs" src="images/BWP1.png" alt="Boxers with Parkinson's Form">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="certs" src="images/BWP2.png" alt="Sample Question">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show active" id="java" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <p>The core language at GRC is Java and the program focuses heavily on making sure
+                                        we understand all the major Data Structures. Many of programs I've  created
+                                        involve working with binary operators, custom linked lists and search trees,
+                                        and out latest project was a maze builder, using a graph to build the maze
+                                        structure and depth- and breadth-first searches to traverse from start to
+                                        finish with a number of cells scaling up to 1 million, printing the one correct
+                                        path along the way and completing in less than 2 seconds.
+                                    </p>
+                                    <p>
+                                        I've posted a screenshot of the end result to the right. I'd love to
+                                        show some of the code I'm particularly proud of, but I wouldn't want to tempt
+                                        any future students to reuse it!
+                                    </p>
+                                </div>
+                                <!-- Java example image -->
+                                <div class="col-md-8">
+                                    <img class="certs" src="images/maze.png" alt="completed maze">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="certs" role="tabpanel" aria-labelledby="contact-tab">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <p>I currently have my A+ certification, which I recently renewed, and as of the coming summer, in August 2019
+                                    <p>I currently have my A+ certification, which I recently renewed, and in August 2020
                                         I expect to have finished my Scrum Master certification. I also received my MTA: Networking Fundamentals in 2016.</p>
                                 </div>
                                 <!--load cert images-->
@@ -257,7 +298,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <!-- guestbook form -->
 <div class="jumbotron" id="guestbook">
-    <div class="accordion" id="guestExpand">
+    <div class="accordion whiteShadow" id="guestExpand">
         <div class="card">
             <div class="card-header text-center" id="headingGuest">
                 <h2 class="mb-0">
