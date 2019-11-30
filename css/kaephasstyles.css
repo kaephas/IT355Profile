@@ -1,0 +1,177 @@
+body {
+    background-color: #33094A;
+}
+
+
+/* data table styles */
+th {
+    color: white !important;
+}
+
+thead th {
+    color: #8a25c3 !important;
+    text-align: center !important;
+}
+
+table {
+    background: white !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: white !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+    color: #6D4285 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: white !important;
+    background: #6D4285 !important;
+}
+
+/* remove transparency from header */
+h1 {
+    color: rgba(255,255,255,1) !important;
+}
+
+/* match nav color to scheme */
+#myNav {
+    background-color: #33094A !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255, 1.0) !important;   /* remove transparency */
+}
+
+.nav-item:hover {
+    font-weight: bold;
+}
+
+/* page sub category styling (jumbotron/accordion) */
+.btn-link {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.btn-link:focus {
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.card-header {
+    background-color: #33094A;
+    color: white;
+}
+
+.card {
+    background: #6D4285;
+}
+
+.card-body {
+    background: white !important;
+}
+
+.accordion {
+    border-radius: unset !important;
+}
+
+.jumbotron {
+    background-color: #6D4285;
+}
+
+/* custom button color */
+.btn-purple {
+    color: white;
+    background-color: #6D4285 !important;
+    border: 1px solid white;
+    height: 35px;
+    padding: 5px 7px;
+    vertical-align: middle;
+    max-width: 100px;
+}
+
+/* linkedIn link button styles */
+.btn-linkedin {
+    background: url("../images/linkedin.png") center !important;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.btn-git {
+    background: url("../images/github.png") center !important;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+#resume {
+    border-radius: unset !important;
+    margin: 0 5px;
+}
+
+/* sub category text color */
+div {
+    color: #8a25c3;
+}
+
+/* form font weight */
+label {
+    font-weight: bold;
+}
+
+/* remove transparency from small header */
+h3 {
+    color: rgba(255,255,255,1) !important;
+}
+
+/* login box style and shape */
+#login {
+    color: white;
+    width: 390px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#loginSubmit {
+    width: 225px !important;
+    padding: 9px !important;
+    line-height: 1;
+}
+
+/* picture fill width */
+.certs {
+    width: 100%;
+}
+
+/* more datatable styles for proper font colors/weight --override datatable defaults */
+
+#signers_wrapper {
+    font-weight: normal;
+}
+
+#signers_filter > label {
+    font-weight: normal;
+    color: white !important;
+}
+
+#signers_info {
+    font-weight: normal;
+    color: white !important;
+}
+
+#signers_length > label {
+    font-weight: normal;
+    color: white !important;
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Stylesheets: custom sheet last -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/kaephasstyles.css">
+    <!-- Scripts: JQuery and Datatable (can't go bottom or won't run) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+    <!-- put $title variable in every page -->
+    <title><?php echo $title; ?></title>
+</head>
+<body>
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-light" id="myNav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/"><strong>Kaephas</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.php#bio">Bio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.php#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.php#guestbook">Guest Book</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="admin.php">Admin</a>
+            </li>
+        </ul>
+        <!--m1-auto shifts to right [i think it means margin-left: auto-->
+        <ul class="navbar-nav m1-auto my-auto">
+            <li class="nav-item my-auto nav-link">Links: </li>
+            <li class="nav-item my-auto">
+                <!-- custom button color: btn-purple -->
+                <!--<a class="nav-link" href="files/resume.pdf" target="_blank"><button class="btn-purple my-auto" id="resume">Resume</button></a>-->
+                <a class="nav-link btn btn-purple" href="files/resume.pdf" target="_blank" id="resume">Resume</a>
+            </li>
+            <li class="nav-item my-auto">
+                <!--<a class="nav-link" href="https://www.linkedin.com/in/kaephaskain/" target="_blank"><button class="btn-linkedin"></button></a>-->
+                <a class="nav-link btn-git" href="https://github.com/kaephas" target="_blank"></a>
+            </li>
+            <li class="nav-item my-auto">
+                <!--<a class="nav-link" href="https://www.linkedin.com/in/kaephaskain/" target="_blank"><button class="btn-linkedin"></button></a>-->
+                <a class="nav-link btn-linkedin" href="https://www.linkedin.com/in/kaephaskain/" target="_blank"></a>
+            </li>
+        </ul>
+    </div>
+</nav>
