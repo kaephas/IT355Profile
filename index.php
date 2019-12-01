@@ -132,9 +132,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         <div id="intro">
             <p>I’m Kaephas, and I believe that anything humans can do, they can do even better with a program.
                 I’ve worked in numerous Agile teams to put my OOP and Full-Stack expertise into building quality
-                web-based and Java applications. I efficiently interpret client needs and convert them into
-                working product features. I’m seeking a place where I can be passionate about the work I’m doing
-                and put my programming and problem-solving skills to its best use.
+                applications. I efficiently interpret client needs and convert them into working product features.
+                I’m currently seeking a place where I can be passionate about the work I’m doing and put my programming
+                and problem-solving skills to its best use.
             </p>
             <p>To learn more about how I can positively impact your company contact me at:<br>kkain@mail.greenriver.edu</p>
         </div>
