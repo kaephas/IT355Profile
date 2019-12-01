@@ -136,7 +136,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                 working product features. I’m seeking a place where I can be passionate about the work I’m doing
                 and put my programming and problem-solving skills to its best use.
             </p>
-            <p>I can easily be reached at:</p><p>kkain@mail.greenriver.edu</p>
+            <p>To learn more about how I can positively impact your company contact me at:<br>kkain@mail.greenriver.edu</p>
         </div>
     </div>
     <div class="jumbotron kaephas" id="bio">
