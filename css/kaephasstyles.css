@@ -1,5 +1,6 @@
 body {
     background-image: url("../images/codebkgd.jpg");
+    /*background-color: black;*/
 }
 
 /* data table styles */
@@ -32,6 +33,13 @@ table {
 /* remove transparency from header */
 h1 {
     color: rgba(255,255,255,1) !important;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+
+h2 button {
+    font-size: 1.5rem !important;
 }
 
 /* match nav color to scheme */
@@ -133,7 +141,7 @@ h1 {
 
 /* sub category text color */
 div {
-    color: #8a25c3;
+    color: rgb(75, 13, 109);
 }
 
 /* form font weight */
@@ -162,7 +170,6 @@ h3 {
 }
 
 #RSBhook {
-    font-size: .75em;
     color: black;
 }
 
