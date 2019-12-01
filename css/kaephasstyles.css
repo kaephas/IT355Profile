@@ -117,6 +117,15 @@ h1 {
     margin-right: 5px;
 }
 
+@media (max-width: 576px) {
+    .btn-purple, .btn-git {
+        margin-bottom: .5em !important;
+    }
+    .btn-purple {
+        margin-left: 0 !important;
+    }
+}
+
 #resume {
     border-radius: unset !important;
     margin: 0 5px;
@@ -196,4 +205,3 @@ h3 {
     font-weight: normal;
     color: white !important;
 }
-
