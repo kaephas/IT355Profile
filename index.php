@@ -153,10 +153,13 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                 <div id="collapseBio" class="collapse show" aria-labelledby="headingBio" data-parent="#bioExpand">
                     <div class="card-body">
-                        <p>I'm in my Senior year at GRC and am excited to continue learning more about Object-Oriented
-                            Programming, specifically Java.  We've been learning a lot about data structures, from
+                        <p>I just graduated with a degree in Software Development (applied Computer Science)
+                            with an emphasis on Object-Oriented Programming, specifically Java, along with Full-Stack
+                            Web Development. We've been learning a lot about data structures, from
                             linked-lists to graphs to binary search-trees, and we'll be spending more time in the future
-                            learning about those and more even more in-depth.</p>
+                            learning about those and more even more in-depth. For our Senior Capstone projects we
+                            also were given real-world project from local businesses where we had to learn many new
+                            technologies on our own initiative.</p>
 
                         <p>We've been working in Agile Scrum teams creating applications for real clients and I look forward
                             to continuing to learn how to work efficiently while collaborating. Our coming quarters will
